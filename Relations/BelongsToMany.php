@@ -1,9 +1,9 @@
 <?php
 
-namespace Core\Relations;
+namespace Forpart\Core\Relations;
 
-use Core\Database;
-use Core\Relations\Relation;
+use Forpart\Core\Database;
+use Forpart\Core\Relations\Relation;
 use PDO;
 
 class BelongsToMany extends Relation

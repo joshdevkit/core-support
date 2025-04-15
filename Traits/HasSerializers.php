@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\Traits;
+namespace Forpart\Core\Traits;
 
 trait HasSerializers
 {

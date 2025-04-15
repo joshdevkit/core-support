@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Relations;
+namespace Forpart\Core\Relations;
 
-use Core\Model;
+use Forpart\Core\Model;
 
 abstract class Relation
 {

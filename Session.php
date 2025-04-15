@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Forpart\Core;
 
 class Session
 {

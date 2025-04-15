@@ -1,11 +1,11 @@
 <?php
 
-use Core\Auth;
-use Core\PathResolver;
-use Core\Redirect;
-use Core\Response;
-use Core\Url;
-use Core\View;
+use Forpart\Core\Auth;
+use Forpart\Core\PathResolver;
+use Forpart\Core\Redirect;
+use Forpart\Core\Response;
+use Forpart\Core\Url;
+use Forpart\Core\View;
 
 if (!function_exists('response')) {
     function response()
@@ -23,7 +23,7 @@ if (!function_exists('redirect')) {
     /**
      * Get a redirect instance
      * 
-     * @return \Core\Redirect
+     * @return \Forpart/Core\Redirect
      */
     function redirect()
     {

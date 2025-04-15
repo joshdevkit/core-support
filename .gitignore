@@ -1,1 +1,3 @@
 /vendor/
+config.bat
+node_modules

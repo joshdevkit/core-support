@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Middleware;
+namespace Forpart\Core\Middleware;
 
-use Core\Request;
+use Forpart\Core\Request;
 
 interface Middleware
 {
