@@ -1,0 +1,12 @@
+{
+    "name": "core/support",
+    "authors": [
+        {
+            "name": "Anonymous",
+            "email": "anonymous@gmail.com"
+        }
+    ],
+    "description": "Framework core",
+    "license": "MIT",
+    "require": {}
+}
