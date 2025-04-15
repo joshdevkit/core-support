@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\Relations;
+namespace Forpart\Core\Relations;
 
-use Core\Relations\Relation;
+use Forpart\Core\Relations\Relation;
 
 
 class BelongsTo extends Relation

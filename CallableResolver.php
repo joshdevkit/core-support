@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Forpart\Core;
 
 /**
  * Class to handle callable resolution for controllers and methods

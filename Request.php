@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Forpart\Core;
 
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
