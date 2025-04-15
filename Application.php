@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Forpart\Core;
 
 use Whoops\Run;
 use Whoops\Handler\PrettyPageHandler;
@@ -34,8 +34,8 @@ class Application
         // Initialize the request object
         $request = new Request();
 
-        \Core\Url::setRouter($route);
-        \Core\Redirect::setRouter($route);
+        Url::setRouter($route);
+        Redirect::setRouter($route);
         // Dispatch the request to the router
         $route->dispatch($request);
     }

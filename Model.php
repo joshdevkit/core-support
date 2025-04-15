@@ -1,13 +1,14 @@
 <?php
 
-namespace Core;
+namespace Forpart\Core;
 
-use Core\Database;
-use Core\Traits\HasAttributes;
-use Core\Traits\HasRelationships;
-use Core\Traits\HasQueryBuilder;
-use Core\Traits\HasSerializers;
-use Core\Traits\HasTimestamps;
+use Forpart\Core\Database;
+use Forpart\Core\Relations\Relation;
+use Forpart\Core\Traits\HasAttributes;
+use Forpart\Core\Traits\HasRelationships;
+use Forpart\Core\Traits\HasQueryBuilder;
+use Forpart\Core\Traits\HasSerializers;
+use Forpart\Core\Traits\HasTimestamps;
 use PDO;
 
 abstract class Model implements \JsonSerializable
@@ -251,7 +252,7 @@ abstract class Model implements \JsonSerializable
         // If relation method exists, load and cache it
         if (method_exists($this, $key)) {
             $relation = $this->$key();
-            if ($relation instanceof \Core\Relations\Relation) {
+            if ($relation instanceof Relation) {
                 return $this->relations[$key] = $relation->getResults();
             }
         }

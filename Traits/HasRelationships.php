@@ -1,11 +1,11 @@
 <?php
 
-namespace Core\Traits;
+namespace Forpart\Core\Traits;
 
-use Core\Relations\BelongsTo;
-use Core\Relations\BelongsToMany;
-use Core\Relations\HasMany;
-use Core\Relations\HasOne;
+use Forpart\Core\Relations\BelongsTo;
+use Forpart\Core\Relations\BelongsToMany;
+use Forpart\Core\Relations\HasMany;
+use Forpart\Core\Relations\HasOne;
 
 trait HasRelationships
 {
